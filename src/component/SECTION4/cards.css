@@ -1,0 +1,81 @@
+.carddeals p{
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.carddeals h4{
+    font-weight: 700;
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+.heart{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+   visibility: hidden;
+}
+.clothes{
+  min-width: 220px;
+  background-color: white;
+position: relative;
+  padding-bottom: 20px;
+}
+.clothes:hover{
+border: 1px solid black;
+
+
+}
+.red{
+    color: red;
+}
+.clothes:hover .heart{
+
+
+visibility: visible;
+}
+.carddeals{
+ margin-top: 20px;
+    border-radius: 3px;
+    transition: all 0.3s ease 0s;
+  margin-bottom: 40px;
+    border: 1px solid rgb(246, 249, 252);
+   
+}
+.stars{
+    display: flex;
+    flex-direction: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.addbtn{
+
+    display: flex;
+    width: 90%;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: inherit;
+    background: transparent;
+    transition: all 150ms ease-in-out 0s;
+    line-height: 1;
+    padding: 10px 16px;
+    color: rgb(34, 34, 34);
+    border: 1px solid rgb(34, 34, 34);
+    height: 40px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+.addbtn:hover{
+    background-color: black;
+    color: white !important;
+}

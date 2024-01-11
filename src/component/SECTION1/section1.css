@@ -1,0 +1,121 @@
+.top{
+    position: relative;
+    margin-bottom: 20px;
+    font-family: 'Open Sans, sans-serif';
+
+}
+.top .offer{
+    
+    top: 0px;
+    left: 32px;
+    z-index: 1;
+    height: 100%;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.top p{
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+ .top h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    margin-bottom: 8px;
+    margin-top: 0px;
+}
+.top a{
+    text-decoration: none;
+   
+}
+ .top a:hover{
+   color: var(--primarycolor) !important;
+   cursor: pointer;
+}
+
+.contentt{
+ padding-top: 100px;
+  
+
+}
+.section1{
+    margin-top: 50px;
+}
+.men,
+.women {
+    font-family: 'Open Sans, sans-serif';
+    color: #2b3445 !important;
+    padding-left: 5rem;
+padding-top: 5rem;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-color: rgb(255, 255, 255);
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 768px) {
+    .top{
+        margin-top: 10px;
+        display: flex;
+        min-height: 300px;
+  
+    }
+}
+.men h4,
+.women h4 {
+   
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1;
+    margin-bottom: 4px;
+    margin-top: 0;
+}
+
+.men h1,
+.women h1 {
+    font-size: 60px;
+    line-height: 1;
+    margin: 0;
+}
+
+.men p,
+.women p {
+    font-size: 18px;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+
+span{
+    font-size: 16px;
+    color: var(--primarycolor)
+}
+.men button , .women button{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    font-style: normal;
+    justify-content: center;
+   
+    align-items: center;
+    outline: none;
+    cursor: pointer;
+    padding: 11px 1.5rem;
+    font-weight: 600;
+    font-family: inherit;
+    background: var(--primarycolor);
+    transition: all 150ms ease-in-out 0s;
+    line-height: 1;
+    border: none;
+    color: rgb(255, 255, 255);
+    height: 40px;
+    font-size: 14px;
+    border-radius: 20px;
+}

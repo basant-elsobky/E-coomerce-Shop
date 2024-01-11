@@ -1,0 +1,40 @@
+.cars {
+    display: flex;
+    padding: 2rem 0;
+    background-color: white;
+   
+  }
+ 
+  .rows {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    text-align: center;
+    flex-direction: column; 
+    border-right: 1px gray solid;
+  }
+  
+  .iconss {
+    width: 30px;
+    height: 30px; 
+    color: black;
+  
+  }
+  
+  @media (max-width: 768px) {
+    .cars {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .rows {
+        border: none;
+      flex-direction: row; 
+      margin-bottom: 15px;
+      text-align: start;
+      width: 100%; 
+      justify-content: flex-start;
+    }
+  }
+  

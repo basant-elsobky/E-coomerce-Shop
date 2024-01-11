@@ -1,0 +1,55 @@
+.gift {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+   
+}
+.bc{
+    margin-bottom: 50px;
+}
+.bc button {
+
+
+    justify-content: center;
+
+    align-items: center;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 11px 30px;
+    font-size: 1rem;
+    font-weight: 600;
+    font-family: inherit;
+    color: rgb(43, 52, 69);
+    background: white;
+    transition: all 150ms ease-in-out 0s;
+    line-height: 1;
+    height: 56px;
+    border-radius: 5px;
+}
+.bc button:hover{
+    background-color: red;
+    color: white;
+}
+.friday {
+    cursor: unset;
+    box-shadow: none;
+    text-align: center;
+}
+
+.blackfriday {
+    gap: 5rem;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    border-radius: 3px;
+
+    align-items: center;
+    background-size: cover;
+
+    justify-content: flex-end;
+    background-position: left center;
+    background-repeat: no-repeat;
+}

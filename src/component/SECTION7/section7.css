@@ -1,0 +1,44 @@
+.row1 h4, .row2 h4 {
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.row1 h3, .row2 h3{
+    font-weight: 700;
+    font-size: 27px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.space{
+    background-color: rgb(34, 34, 34);
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 60px;
+    height: 2px;
+}
+.spacee{
+    background-color: white;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: 60px;
+    height: 2px;
+}
+.row1 p, .row2 p{
+
+    font-size: 16px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.row1 , .row2{
+    margin-top: 50px;
+    padding: 32px;
+    overflow: hidden;
+    border-radius: 3px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.row2{
+    color: white;
+}

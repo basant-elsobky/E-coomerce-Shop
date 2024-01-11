@@ -1,0 +1,61 @@
+.content {
+    background-color: white;
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    overflow: hidden;
+}
+
+.content h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0px;
+}
+
+.content h5 {
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 2.25rem;
+    margin-top: 0px;
+    color: rgb(55, 63, 80);
+}
+
+.all {
+    width: 100%;
+    padding: 20px;
+}
+
+.content label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.875rem;
+
+}
+
+.content input {
+    padding: 8px 12px;
+    height: 40px;
+    font-size: inherit;
+    color: rgb(43, 52, 69);
+    border-radius: 5px;
+    border: 1px solid rgb(218, 225, 231);
+    width: 100%;
+    outline: none;
+}
+
+.labels {
+    margin-bottom: 1rem;
+
+}
+
+
+a {
+    margin-left: 10px;
+    color: black !important;
+}

@@ -1,0 +1,54 @@
+.new {
+    margin-top: 70px;
+    margin-bottom: 70px;
+ 
+}
+
+.new .row {
+    align-items: center;
+
+}
+.options{
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-top: 20px;
+    
+}
+.optionss{
+    color: white !important;
+    padding-left: 10px;
+    padding-top: 30px;
+    
+}
+.optionss a{
+    color: white !important;
+   
+}
+.new .row .col-md-4 {
+    min-height: 200px;
+   max-width:  400px;
+    background-repeat: no-repeat;
+}
+.new .row .col-md-4 p{
+    font-size: 13px;
+    letter-spacing: 1.2px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.new .row .col-md-4 h4{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+.new .row .col-md-4 a{
+    text-decoration: none;
+}
+.new .row .col-md-4 a:hover{
+   color: var( --primarycolor ) !important;
+   cursor: pointer;
+
+ 
+}

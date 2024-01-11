@@ -1,0 +1,17 @@
+.card button:hover{
+background-color: black;
+color: white;
+}
+
+.card button{
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    font-size: 25px;
+
+}
+.card{
+    margin-top: 20px;
+    transition: width 2s;
+
+}

@@ -1,0 +1,17 @@
+.deals h2{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.deals{
+    margin-top: 50px;
+    
+}
+.deals a{
+    text-decoration: none;
+    color: rgb(43, 52, 69);
+    cursor: pointer;
+}
+.deals a:hover{
+   color: var(--primarycolor) !important;
+}

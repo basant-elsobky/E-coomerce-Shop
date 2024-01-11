@@ -1,0 +1,37 @@
+.categories{
+    background-color: white;
+    color: black;
+    padding: 1rem 1rem ;
+    height: 100%;
+    border-radius: 3px;
+    border: 0px;
+
+}
+.rowss{
+    margin-top: 70px !important;
+    margin-bottom: 50px;
+}
+ul li {
+    list-style: none;
+    font-size: 13px;
+    font-weight: 500;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px 0px 0px;
+    transition: all 0.3s ease 0s;
+}
+.categories h3{
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+.categories a:hover, ul li:hover{
+  color: red !important;
+  cursor: pointer;
+
+}
+.categories ul{
+    padding: 0px;
+    margin-bottom: 1.5rem;
+}
